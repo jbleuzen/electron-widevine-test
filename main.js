@@ -12,8 +12,8 @@ const BrowserWindow = electron.BrowserWindow;
 let mainWindow;
 //let widevine_adapter_path= app.getPath('appData').concat('/electron-quick-start/widevine/1.4.8.866/_platform_specific/mac_x64/widevinecdmadapter.plugin');
 
-let widevineVersion = '1.4.8.866';
-let baseWidevinePath ='./accentué/'+widevineVersion+'/_platform_specific/';
+let widevineVersion = '1.4.8.885';
+let baseWidevinePath ='./Widevine/'+widevineVersion+'/_platform_specific/';
 var widevine_adapter_path ='';
 
 switch(process.platform)
